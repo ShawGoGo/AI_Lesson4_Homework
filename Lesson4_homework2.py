@@ -4,6 +4,7 @@ from collections import Counter
 def count_words(text):
     vocab = text.split( )
     result = dict(Counter(vocab))
+    
     return result
 
 
